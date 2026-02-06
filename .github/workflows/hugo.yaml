@@ -82,7 +82,7 @@ jobs:
           hugo \
             --gc \
             --minify \
-            --baseURL "${{ github.repository_owner }}/" \
+            --baseURL "${{ github.repository_owner }}.github.io/" \
             --cacheDir "${{ runner.temp }}/hugo_cache"
       - name: Cache save
         id: cache-save
