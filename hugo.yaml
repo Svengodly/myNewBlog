@@ -1,0 +1,17 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: This is Rick
+module:
+  imports:
+    - path: github.com/imfing/hextra
+menus:
+  main:
+  -  name: Home
+     pageRef: /
+     weight: 1
+  -  name: Blog
+     pageRef: /blog
+     weight: 2
+  -  name: Documents
+     pageRef: /docs
+     weight: 3
