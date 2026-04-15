@@ -15,6 +15,3 @@ menus:
   -  name: Blog
      pageRef: /blog
      weight: 2
-  -  name: Documents
-     pageRef: /docs
-     weight: 3
