@@ -4,7 +4,7 @@ draft: true
 title: 'Upgrading to an SSD'
 description: 'Sprucing up an old laptop.'
 ---
-![](laptop_innards.jpg "Innard's of a 2016 HP Notebook")
+![](laptop_innards.jpg "Innard's of a 2015 HP Notebook")
 I built my first PC in 2015. It has an i5-6600K CPU, 32GB of RAM, and a 1070Ti GTX GPU. Over a decade later, it is still serving me well and the only aspects that 
 have changed are increased RAM from 16GB to 32GB and making the switch from Windows to Ubuntu. One of my coworkers told me that their laptop was sluggish, saying that it could take several minutes to 
 boot. I offered to give it a lookover to determine if I could breath new life into it. That new life would be granted by 
@@ -29,6 +29,9 @@ Here is a list of tools that I used.
 2. Remove screws on the underside of the laptop, and remove the CD drive. There were two hidden under the rubber pads near the battery.
 3. Use a spudger to gently pry the palm rest assembly apart from the bottom case assembly.
 4. Identify the HDD and the SATA cable that connects the HDD to the motherboard.
+{{< cards >}}
+	{{< card image="/images/sata_cable.jpg" >}}
+{{< /cards >}}
 5. Remove the three screws of the two brackets that hold the HDD in place, but do not remove the HDD before disconnecting the SATA cable.
 6. Gently remove the SATA cable from the HDD.
 7. Remove the brackets from the sides of the HDD by removing the four screws that hold them in place. Place the HDD to the side in a safe location.
@@ -38,6 +41,11 @@ Here is a list of tools that I used.
 11. Plug in the Ventoy USB and power on the laptop. USB was already at the top of the boot order in the UEFI settings.
 12. Select the iso that you want to try. This gives you an opportunity to try out an OS before installing it. Mint was selected for this laptop.
 13. Click on "Install Linux Mint" to begin the installation.
+
+{{< cards >}}
+	{{< card image="/images/mint_installed.jpg" >}}
+{{< /cards >}}
+
 {{< callout type="info" >}}There will be a pop-up at some point that will provide you the option to "Enroll MOK." It is recommended to select this option instead of continue. I selected "Continue" the first time through, and I ran into issues with Broadcom drivers for the WiFi card.{{< /callout >}}
 
 Once Linux Mint was installed it was time to verify everything worked and to repurpose the old HDD as an external drive.
