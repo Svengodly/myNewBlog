@@ -1,6 +1,6 @@
 ---
 date: '2026-04-15T16:56:19-04:00'
-draft: true
+draft: false
 title: 'Upgrading to an SSD'
 description: 'Sprucing up an old laptop.'
 ---
